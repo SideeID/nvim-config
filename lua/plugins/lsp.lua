@@ -23,7 +23,7 @@ return {
 					"dockerls",
 					"gopls",
 					"svelte",
-					"remark_ls",
+					-- "remark_ls",
 				},
 			})
 		end,
@@ -79,7 +79,7 @@ return {
 			})
 
 			-- Markdown LSP
-			lspconfig.remark_ls.setup({ capabilities = lsp_capabilities })
+			-- lspconfig.remark_ls.setup({ capabilities = lsp_capabilities })
 
 			-- Svelte LSP
 			lspconfig.svelte.setup({
