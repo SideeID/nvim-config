@@ -1,6 +1,6 @@
-## Dokumentasi Key Binding Neovim
+## Dokumentasi Key Binding
 
-### Mode Dasar (Penting untuk Pemula!)
+### Mode Dasar
 #### Mode Normal
 - `i` - Masuk mode insert
 - `v` - Masuk mode visual
