@@ -1,0 +1,48 @@
+tt.*
+.tests
+doc/tags
+debug
+.repro
+foo.*
+*.log
+data
+
+# Folder swap, backup, dan undo files
+*.swp
+*.swo
+*.swn
+*.un~
+*.bak
+*.tmp
+*.old
+
+# Cache plugin (misalnya lazy.nvim atau packer.nvim)
+plugin/
+plugin/**
+
+# Direktori undodir jika menggunakan fitur undo persistent
+undo/
+undo/**
+
+# Direktori swap dan backup
+swap/
+swap/**
+
+# Direktori session jika menggunakan sesi yang disimpan
+session/
+session/**
+
+# Direktori cache (untuk treesitter, lsp, dll.)
+.cache/
+.cache/**
+nvim/cache/
+nvim/cache/**
+
+# Log dan debugging
+log/
+log/**
+
+# File khusus yang mungkin dibuat oleh plugin
+.viminfo
+.shada
+health.log
